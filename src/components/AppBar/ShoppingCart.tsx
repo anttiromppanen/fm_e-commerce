@@ -80,7 +80,7 @@ function ShoppingCart() {
             transition={{ duration: 0.2, type: "spring" }}
             className="
           absolute left-1/2 top-16 w-[94%] -translate-x-1/2 overflow-hidden rounded-md bg-white
-          shadow-2xl md:-left-14 md:top-16 md:w-[350px] lg:left-6"
+          shadow-2xl md:-left-14 md:top-16 md:w-[350px] lg:-left-6"
           >
             <h2 className="px-4 py-3 font-bold">Cart</h2>
             <hr />
