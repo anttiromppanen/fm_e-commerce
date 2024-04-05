@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -14,6 +14,12 @@ module.exports = {
         userGrayishBlue: "hsl(220, 14%, 75%)",
         userLightGrayishBlue: "hsl(223, 64%, 98%)",
       },
+      backgroundImage: {
+        "shoeImg1": "url('/image-product-1.jpg')",
+        "shoeImg2": "url('/image-product-2.jpg')",
+        "shoeImg3": "url('/image-product-3.jpg')",
+        "shoeImg4": "url('/image-product-4.jpg')",
+      }
     },
   },
   plugins: [],
