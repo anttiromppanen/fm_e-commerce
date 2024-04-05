@@ -58,7 +58,10 @@ function ShoppingCart() {
         className="group relative rounded-full p-3"
       >
         {shoppingCartItems.length > 0 && (
-          <div className="absolute right-1 top-2 z-50 h-fit rounded-full bg-userOrange px-2 text-[8px] font-bold text-white group-hover:scale-125">
+          <div
+            className="
+              group-hover: absolute right-1 top-2 z-50 h-fit scale-125 rounded-full bg-userOrange px-2 text-[8px] font-bold              text-white"
+          >
             {shoppingCartItems.length}
           </div>
         )}
@@ -77,7 +80,7 @@ function ShoppingCart() {
             transition={{ duration: 0.2, type: "spring" }}
             className="
           absolute left-1/2 top-16 w-[94%] -translate-x-1/2 overflow-hidden rounded-md bg-white
-          shadow-2xl md:-left-8 md:top-16 md:w-[350px] lg:left-6"
+          shadow-2xl md:-left-14 md:top-16 md:w-[350px] lg:left-6"
           >
             <h2 className="px-4 py-3 font-bold">Cart</h2>
             <hr />
